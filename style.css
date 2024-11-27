@@ -5,19 +5,18 @@
 }
 
 body {
+    height: 100vh;
     background-color: #111111;
-}
-
-.container {
-    display: flex;
-    align-items: center;
     color: aliceblue;
 }
 
-h1 {
-    font-size: 16px;
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-strong {
-    color: aqua;
+.destaqueTitulo {
+    color: #2dfd;
 }
+
