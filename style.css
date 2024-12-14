@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+:root {
+    --main-bg-color: #111111;
+    --cor-principal: #22D4FD;
+    --cor-texto: aliceblue;
+    --font-titulo: "Krona One", sans-serif;
+    --font-paragrafo: "Montserrat", sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -8,8 +16,8 @@
   
 body {
     /*height: 100vh;*/
-    background-color: #111111;
-    color: aliceblue;
+    background-color: var(--main-bg-color);
+    color: var(--cor-texto);
 }
 
 .cabecalho {
@@ -22,9 +30,9 @@ body {
 }
 
 .menu__link {
-    color: #22D4FD;
+    color: var(--cor-principal);
     text-decoration: none;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-paragrafo);
     font-size: 20px;
     font-weight: 600;    
 }
@@ -39,7 +47,7 @@ body {
 }
 
 .destaqueTitulo {
-    color: #22D4FD;
+    color: var(--cor-principal);
 }
 
 .apresentacao__conteudo {
@@ -51,14 +59,14 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
-    font-family: "Krona One", sans-serif;
+    font-family: var(--font-titulo);
     font-weight: 400;
     text-align: left;
 }
 
 .apresentacao__conteudo__paragrafo {
     font-size: 24px;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--font-paragrafo);
     text-align: justify;
     text-indent: 30px; /* Ajuste espaço de inicio de parágrafo */
     word-spacing: normal; /* Ajuste espaçamento de palavras */
@@ -76,13 +84,13 @@ body {
 
 .apresentacao__links__subtitulo {
     font-size: 18px;
-    font-family: "Krona One", sans-serif;
+    font-family: var(--font-titulo);
     font-weight: 200;
 }
 
 .botao__link {
     /*background-color: #111111;*/
-    border: 2px solid #22D4FD;
+    border: 2px solid var(--cor-principal);
     width: 280px;
     text-align: center;
     border-radius: 16px;
@@ -123,4 +131,8 @@ body {
 
 .botao__link:hover {
     background-color: #272727;
+}
+
+.menu__link:hover {
+    color: cadetblue;
 }
