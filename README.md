@@ -6,10 +6,10 @@
  </br>
  </br>
  
-<img align="center" src="./assets/apresentacao.png">
+<img width="500" src="./assets/apresentacao.png">
 </br>
 </br>
-<img src="./assets/Sobre mim.png">
+<img width="500" src="./assets/Sobre mim.png">
 
 
  
