@@ -7,13 +7,31 @@
 }
   
 body {
-    height: 100vh;
+    /*height: 100vh;*/
     background-color: #111111;
     color: aliceblue;
 }
 
+.cabecalho {
+    padding: 2% 0% 0% 15%;
+}
+
+.menu {
+    display: flex;
+    gap: 80px;
+}
+
+.menu__link {
+    color: #22D4FD;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;    
+}
+
+
 .apresentacao {
-    margin: 10% 15%;
+    padding: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -87,4 +105,22 @@ body {
     }
 .imagem {
     width: 40%;
+}
+
+.rodape {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 14px;
+    box-shadow: 0 -4px 6px rgba(34, 212, 253, 0.5); /* Sombra no topo */
+    background-color: #22D4FD;
+    text-align: center;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+.botao__link:hover {
+    background-color: #272727;
 }
